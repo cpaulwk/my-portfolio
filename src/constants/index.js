@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  socge,
+  kpmg,
+  me,
 } from "../assets";
 
 export const navLinks = [
@@ -116,50 +119,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Project Manager Assistant",
+    company_name: "Société Générale",
+    icon: socge,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sept 2017 - Oct 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mapping of compliance processes:",
+      "Efficiently communicated with the business through collaborative workshops",
+      "Created the mapping of control processes with a six sigma approach",
+      "Managed and optimized online document management as a SharePoint admin",
+      "The entire compliance department benefits from a clear view of modeled compliance processes, facilitating future optimizations.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "IT Consultant",
+    company_name: "KMPG",
+    icon: kpmg,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2018 - Jan 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implemented a Benchmark IT solution for the leading natural gas distributor in France:",
+      "Quickly learned to use the new solution prior to implementation",
+      "Assisted the IT department leadership in the solution's adoption",
+      "The IT department leadership obtained a clear view of the cost for over 10,000 devices used within the company.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Sales Representative",
+    company_name: "Freelance",
+    icon: me,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2019 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Prospecting for the launch of the client's activity:",
+      "Implemented an email marketing campaign strategy targeting 1000+ prospects",
+      "Proposed a custom email template integrating HTML and CSS",
+      "200% increase in response rate from prospects since the initiative.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Freelance",
+    icon: me,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,7 +202,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ystra",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -219,7 +223,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Vinio",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -240,7 +244,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Bevibe",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
