@@ -30,6 +30,10 @@ import socge from "./company/socge.png";
 import kpmg from "./company/kpmg.png";
 import me from "./company/me.png";
 
+import imtbs from "./school/imtbs.png";
+import lacapsule from "./school/lacapsule.png";
+import ntu from "./school/ntu.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -66,4 +70,7 @@ export {
   socge,
   kpmg,
   me,
+  imtbs,
+  lacapsule,
+  ntu,
 };
