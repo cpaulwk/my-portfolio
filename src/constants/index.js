@@ -29,6 +29,11 @@ import {
   imtbs,
   lacapsule,
   ntu,
+  prisma,
+  mysql,
+  nextjs,
+  vinio,
+  bevibe,
 } from "../assets";
 
 export const navLinks = [
@@ -115,9 +120,21 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "prisma",
+    icon: prisma,
   },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+  {
+    name: "nextjs",
+    icon: nextjs,
+  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const academy = [
@@ -272,7 +289,7 @@ const projects = [
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
@@ -283,9 +300,14 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "openai",
+        color: "golden-text-gradient",
+      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/stars/cpaulwk/lists/ystra",
+    project_link: "https://github.com/stars/cpaulwk/lists/ystra",
   },
   {
     name: "Vinio",
@@ -297,16 +319,21 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "nextjs",
+        color: "golden-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: vinio,
+    source_code_link: "https://github.com/stars/cpaulwk/lists/vinio",
+    project_link: "https://vinio-frontend.vercel.app/",
   },
   {
     name: "Bevibe",
@@ -314,20 +341,25 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "vite",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "openai",
+        color: "golden-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bevibe,
+    source_code_link: "https://github.com/stars/cpaulwk/lists/bevibe",
+    project_link: "https://bevibe.netlify.app/",
   },
 ];
 
