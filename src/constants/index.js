@@ -26,6 +26,9 @@ import {
   socge,
   kpmg,
   me,
+  imtbs,
+  lacapsule,
+  ntu,
 } from "../assets";
 
 export const navLinks = [
@@ -56,10 +59,10 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -117,6 +120,68 @@ const technologies = [
   },
 ];
 
+const academy = [
+  {
+    level: "Bachelor in Information Management",
+    specialty: "RNCP 6 Title, Project Manager in Web & Mobile Applications Development Certification",
+    school_name: "National Taiwan University",
+    icon: ntu,
+    iconBg: "#383E56",
+    date: "Jan 2017 - Jun 2017",
+    points: [
+      "3D asset creation using Blender",
+      "Creation of an escape room game prototype in Unity",
+      "Creation of a mockup for a mobile application",
+    ]
+  },
+  {
+    level: "Master's degree in Management",
+    specialty: "RNCP 6 Title in Web & Mobile Applications Development",
+    school_name: "Institut Mines-Télécom Business School",
+    icon: imtbs,
+    iconBg: "#E6DEDD",
+    date: "Sept 2015 - Jun 2018",
+    points: [
+      "Java Programming Introduction",
+      "Innovative Project Management",
+      "Agile IS Project Management",
+      "IS Project Management",
+      "IS Governance",
+      "ERP and CXM",
+      "Audit and IS Rating",
+    ],
+  },
+  {
+    level: "RNCP 6 Title in Web & Mobile Applications Development",
+    specialty: "RNCP 6 Title, Project Manager in Web & Mobile Applications Development Certification",
+    school_name: "La Capsule",
+    icon: lacapsule,
+    iconBg: "#383E56",
+    date: "Oct 2022 - Dec 2022",
+    points: [
+      "10-week coding Bootcamp - Fullstack Web & Mobile development in JavaScript",
+      "Web and Mobile applications design and prototyping",
+      "Front End development: HTML 5 / CSS / JavaScript / React / Redux",
+      "Back End development : NodeJS / Express",
+      "Databases and CDN: Mongo DB / Cloudinary",
+      "Workflow: Git / Github",
+    ],
+  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Freelance",
+  //   icon: me,
+  //   iconBg: "#E6DEDD",
+  //   date: "Oct 2022 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+];
+
 const experiences = [
   {
     title: "Project Manager Assistant",
@@ -150,7 +215,7 @@ const experiences = [
     company_name: "Freelance",
     icon: me,
     iconBg: "#383E56",
-    date: "Jan 2019 - Oct 2022",
+    date: "Jan 2019 - Present",
     points: [
       "Prospecting for the launch of the client's activity:",
       "Implemented an email marketing campaign strategy targeting 1000+ prospects",
@@ -158,19 +223,19 @@ const experiences = [
       "200% increase in response rate from prospects since the initiative.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Freelance",
-    icon: me,
-    iconBg: "#E6DEDD",
-    date: "Oct 2022 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Freelance",
+  //   icon: me,
+  //   iconBg: "#E6DEDD",
+  //   date: "Oct 2022 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -266,4 +331,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, academy, experiences, testimonials, projects };
