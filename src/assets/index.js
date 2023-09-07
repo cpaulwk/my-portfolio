@@ -21,6 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.png";
 // import threejs from "./tech/threejs.svg";
+import prisma from "./tech/prisma.png";
+import mysql from "./tech/mysql.png"
+import nextjs from "./tech/nextjs.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +40,8 @@ import ntu from "./school/ntu.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import vinio from "./vinio.png";
+import bevibe from "./bevibe.png";
 
 export {
   logo,
@@ -73,4 +78,9 @@ export {
   imtbs,
   lacapsule,
   ntu,
+  prisma,
+  mysql,
+  nextjs,
+  vinio,
+  bevibe,
 };
