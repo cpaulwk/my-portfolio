@@ -11,7 +11,7 @@ import { textVariant } from "../utils/motion";
 const EducationCard = ({ education }) => {
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: "#1d1836", color: "#fff" }}
+      contentStyle={{ background: "#001f3a", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
       date={education.date}
       iconStyle={{ background: education.iconBg }}
