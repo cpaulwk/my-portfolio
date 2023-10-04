@@ -38,6 +38,7 @@ import lacapsule from "./school/lacapsule.png";
 import ntu from "./school/ntu.png";
 
 import ystra from "./ystra.png";
+import ystra2 from "./ystra2.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import vinio from "./vinio.png";
@@ -83,4 +84,5 @@ export {
   vinio,
   bevibe,
   ystra,
+  ystra2,
 };
