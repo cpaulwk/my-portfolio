@@ -19,7 +19,6 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
@@ -34,6 +33,7 @@ import {
   nextjs,
   vinio,
   bevibe,
+  ystra,
 } from "../assets";
 
 export const navLinks = [
@@ -149,7 +149,7 @@ const academy = [
       "3D Asset Creation Using Blender: Gained knowledge and experience in 3D asset creation with Blender, laying the foundation for further exploration in this area.",
       "Escape Game Prototype Creation in Unity: Acquired introductory skills in game development by creating an escape game prototype in Unity, providing exposure to game design principles.",
       "Proof of Concept for a Mobile Application: Explored the conceptual aspects of mobile application development, focusing on the theoretical aspects of creating a proof of concept.",
-    ]
+    ],
   },
   {
     level: "Master's degree in Management",
@@ -301,9 +301,9 @@ const projects = [
         color: "golden-text-gradient",
       },
     ],
-    image: carrent,
+    image: ystra,
     source_code_link: "https://github.com/stars/cpaulwk/lists/ystra",
-    project_link: "https://github.com/stars/cpaulwk/lists/ystra",
+    project_link: "https://youtu.be/afV12tpdOWA",
   },
   {
     name: "Vinio",
