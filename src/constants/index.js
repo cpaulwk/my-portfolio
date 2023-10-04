@@ -34,6 +34,7 @@ import {
   vinio,
   bevibe,
   ystra,
+  ystra2,
 } from "../assets";
 
 export const navLinks = [
@@ -282,7 +283,7 @@ const projects = [
   {
     name: "Ystra",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Art-selling platform specialized in on-demand printing of AI-generated artworks, Ystra provides a unique bridge between cutting-edge technology and creative expression.",
     tags: [
       {
         name: "reactnative",
@@ -308,7 +309,7 @@ const projects = [
   {
     name: "Vinio",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application dedicated to simplify the art of wine pairing, eliminating the need for extensive wine education, Vinio provides quick and effective answers on how to pair wines.",
     tags: [
       {
         name: "react",
@@ -331,10 +332,36 @@ const projects = [
     source_code_link: "https://github.com/stars/cpaulwk/lists/vinio",
     project_link: "https://vinio-frontend.vercel.app/",
   },
+  // {
+  //   name: "Bevibe",
+  //   description:
+  //     "An interactive 3D T-shirt customization web application, enhanced by AI-generated logos and textures, a standout in the e-commerce space. Reproduced from a tutorial.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "vite",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "openai",
+  //       color: "golden-text-gradient",
+  //     },
+  //   ],
+  //   image: bevibe,
+  //   source_code_link: "https://github.com/stars/cpaulwk/lists/bevibe",
+  //   project_link: "https://bevibe.netlify.app/",
+  // },
   {
-    name: "Bevibe",
+    name: "Ystra 2.0",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The web version of Ystra. Currently still on development. This project will be a solo project with simpler features, where user can test and leave the platform without login.",
     tags: [
       {
         name: "react",
@@ -353,9 +380,9 @@ const projects = [
         color: "golden-text-gradient",
       },
     ],
-    image: bevibe,
-    source_code_link: "https://github.com/stars/cpaulwk/lists/bevibe",
-    project_link: "https://bevibe.netlify.app/",
+    image: ystra2,
+    // source_code_link: "/",
+    // project_link: "/",
   },
 ];
 
