@@ -7,14 +7,23 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, project_link }) => {
+const ProjectCard = ({
+  index,
+  name,
+  description,
+  tags,
+  image,
+  source_code_link,
+  project_link,
+}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt options={{
-        max: 45,
-        scale: 1,
-        speed: 450,
-      }}
+      <Tilt
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[350px] w-full"
       >
         <div className="relative w-full h-[230px]">
@@ -23,7 +32,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover cursor-pointer"
+          <div
+            className="absolute inset-0 flex justify-end m-3 card-img_hover cursor-pointer"
             onClick={() => window.open(project_link, "_blank")}
           >
             <div
@@ -45,16 +55,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p
-              key={tag.name}
-              className={`text-[14px] ${tag.color}`}>
+            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
         </div>
       </Tilt>
     </motion.div>
-  )
+  );
 };
 
 const Works = () => {
@@ -66,23 +74,24 @@ const Works = () => {
       </motion.div>
 
       <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0.1, 1)}
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcases my skills amd experience enough real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+          Following projects showcases my skills and experience enough
+          real-world examples of my work. Each project is briefly described with
+          links to code repositories and live demos in it. It reflects my
+          ability to solve complex problems, work with different technologies,
+          and manage projects effectively.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap justify-center gap-7">
         {projects.map((project, index) => (
-          <ProjectCard
-            key={`project-${index}`}
-            index={index}
-            {...project}
-          />
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
 export default SectionWrapper(Works, "");
