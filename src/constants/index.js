@@ -381,8 +381,8 @@ const projects = [
       },
     ],
     image: ystra2,
-    // source_code_link: "/",
-    // project_link: "/",
+    source_code_link: "https://github.com/stars/cpaulwk/lists/ystra",
+    project_link: "https://github.com/stars/cpaulwk/lists/ystra",
   },
 ];
 
